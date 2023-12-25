@@ -13,4 +13,9 @@ Welcome to the Robotics Project repository! This repository houses the codebase 
 ### 3. Maze Navigation Challenge
 - **Description:** The third project tests the robot's ability to successfully navigate through a maze. The maze navigation challenge emphasizes the robot's decision-making capabilities and pathfinding algorithms, highlighting its adaptability and intelligence in complex environments.
 
+## Pictures:
+![ControlArm](https://github.com/Ilesnat/Robotics/assets/149329272/96291687-7aa3-4bce-9659-f8c9b3a4bfd5)
+
+![DriverBase](https://github.com/Ilesnat/Robotics/assets/149329272/b1a2fdf5-1dcd-41a4-9900-bf393e491c08)
+
 
