@@ -13,8 +13,4 @@ Welcome to the Robotics Project repository! This repository houses the codebase 
 ### 3. Maze Navigation Challenge
 - **Description:** The third project tests the robot's ability to successfully navigate through a maze. The maze navigation challenge emphasizes the robot's decision-making capabilities and pathfinding algorithms, highlighting its adaptability and intelligence in complex environments.
 
-## Repository Structure:
 
-- **Project1a.ino:** Contains the codebase and documentation for the Pick-and-Place Control Arm.
-- **Project2a.ino:** Houses the code and resources for the Line Following Race project.
-- **Project3a.ino:** Includes the code and documentation for the Maze Navigation Challenge project.
