@@ -5,7 +5,7 @@
 </p>
 
 
-Welcome to the Robotics Project repository! This repository houses the codebase for three exciting robotics projects that showcase the capabilities of my robot in various challenges.
+Welcome to the Robotics Project repository! This repository houses the codebase for three exciting robotics projects that showcase the capabilities of my robot in various challenges. I developed these in college at Kansas State University. 
 
 ## Projects Overview:
 
