@@ -22,4 +22,4 @@ Welcome to the Robotics Project repository! This repository houses the codebase 
 ![IMG_6505](./Images/Arduino_Proj_1.jpeg)
 
 
-![Pic 2]./Images/Arduino_Proj_2.jpeg)
+![Pic 2](./Images/Arduino_Proj_2.jpeg)
