@@ -1,6 +1,6 @@
 #include <QTRSensors.h>
 #define CUSTOM_SETTINGS
-#define INCLUDE_GAMEPAD_MODULE
+#define INCLUDE_GAMEPAD_MODULE /*I define the header files and global variables here*/
 #include <Dabble.h>
 #include <VL6180X.h>
 #include <Wire.h>
@@ -291,35 +291,35 @@ void loop()
     digitalWrite(ldir, HIGH);
     analogWrite(rpwm, right);
     digitalWrite(rdir, LOW);
-    int ilovebrockoff = sensorValues[0];
+    int Conrol_Variable = sensorValues[0];
     for (int i = 0; i < 8; i++)
     {
-      if (sensorValues[i] > ilovebrockoff) // this is used to check for the max sensor. it checks if I have fallen off a line
+      if (sensorValues[i] > Conrol_Variable) // this is used to check for the max sensor. it checks if I have fallen off a line
       {
-        ilovebrockoff = sensorValues[i];
+        Conrol_Variable = sensorValues[i];
       }
     }
-    if(ilovebrockoff < 1400 && P==1)
+    if(Conrol_Variable < 1400 && P==1)
     {
       analogWrite(lpwm, 30);
       digitalWrite(ldir, HIGH);
       analogWrite(rpwm, 30);
       digitalWrite(rdir, HIGH);
     }
-    else if (ilovebrockoff >1500 && P ==1 && sensorValues[4] >= 1500 ){ // based on that value I turn my robot back and forth untill it finds the line again
+    else if (Conrol_Variable >1500 && P ==1 && sensorValues[4] >= 1500 ){ // based on that value I turn my robot back and forth untill it finds the line again
       P =0;
-      ilovebrockoff = 1400;
+      Conrol_Variable = 1400;
     }
-    if(ilovebrockoff < 1400 && P==0 )
+    if(Conrol_Variable < 1400 && P==0 )
     {
       analogWrite(lpwm, 30);
       digitalWrite(ldir, LOW);
       analogWrite(rpwm, 30);
       digitalWrite(rdir, LOW);
     }
-    else if(ilovebrockoff >1500 && P ==0 && sensorValues[5] >= 1500){
+    else if(Conrol_Variable >1500 && P ==0 && sensorValues[5] >= 1500){
       P =1;
-      ilovebrockoff =1400;
+      Conrol_Variable =1400;
     }
   }
 }

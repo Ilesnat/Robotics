@@ -1,7 +1,7 @@
 # Robotics Project Repository
 
 <p align="center">
-  <img width="460" height="300" src='https://github.com/Ilesnat/Projects/assets/149329272/67c4fe16-095d-4538-855e-60edde270a0e'>
+  <img width="460" height="300" src=./Images/Arduino_Gif.gif>
 </p>
 
 
@@ -19,7 +19,7 @@ Welcome to the Robotics Project repository! This repository houses the codebase 
 - **Description:** The third project tests the robot's ability to successfully navigate through a maze. The maze navigation challenge emphasizes the robot's decision-making capabilities and pathfinding algorithms, highlighting its adaptability and intelligence in complex environments.
 
 ## Pictures:
-![IMG_6505](https://github.com/Ilesnat/Projects/assets/149329272/aed917be-a9e2-4be4-abf8-a26b2d7c0f13)
+![IMG_6505](./Images/Arduino_Proj_1.jpeg)
 
 
-![Pic 2](https://github.com/Ilesnat/Projects/assets/149329272/cb6e9f0d-7537-4cbc-abbb-175d97db819e)
+![Pic 2]./Images/Arduino_Proj_2.jpeg)
